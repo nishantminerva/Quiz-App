@@ -12,9 +12,9 @@ struct Question {
     let text: String
     let answer: String
     
-    init(q: String, a: String) {
-        text = q
-        answer = a
+    init(que: String, ans: String) {
+        text = que
+        answer = ans
     }
 }
 
